@@ -16,7 +16,7 @@
             <form method="POST" enctype="multipart/form-data" id="upload-file" action="{{ url('contract') }}">
                 @csrf
                 <div class="my-3">
-                    <label class="form-label" for="inputName">Sender Name:</label>
+                    <label class="form-label" for="inputName">Signer Name:</label>
                     <input 
                         type="text" 
                         name="name" 
@@ -28,7 +28,7 @@
                     @enderror
                 </div>
                 <div class="my-3">
-                    <label class="form-label" for="inputEmail">Sender Email:</label>
+                    <label class="form-label" for="inputEmail">Signer Email:</label>
                     <input 
                         type="text" 
                         name="email" 
